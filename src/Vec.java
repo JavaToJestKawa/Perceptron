@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 public class Vec {
-    private double[] components ;
+    private double[] components;
 
     public Vec(double[] components) {
         this.components = components;

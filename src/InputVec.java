@@ -1,4 +1,4 @@
-public class InputVec extends Vec{
+public class InputVec extends Vec {
     private final String label;
     private String labelClassified;
 
@@ -7,12 +7,20 @@ public class InputVec extends Vec{
         this.label = label;
     }
 
-    public void setComponents(double[] components) {
-        System.out.println("Components cannot be changed for input vector.");
-    }
-
     public String getLabel() {
         return label;
+    }
+
+    public String getLabelClassified() {
+        return labelClassified;
+    }
+
+    public void setLabelClassified(String labelClassified) {
+        this.labelClassified = labelClassified;
+    }
+
+    public void setComponents(double[] components) {
+        System.out.println("Components cannot be changed for input vector.");
     }
 
     @Override
